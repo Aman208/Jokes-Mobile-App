@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "First Mobile App",
+    "slug": "mobile-app",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "config": {
+        
+      "branch": {
+        
+        "apiKey": "AIzaSyANWRmdcfG4hksdtmVYxnqKCIsfW__rsVY"
+       
+      },
+      
+      "googleMaps": {
+        
+        "apiKey":"AIzaSyCJd2JfeBR0Tft2E51ltbV4qRVJw23NBEU"
+      },
+   
+      "googleSignIn": {
+        
+        "apiKey": "AIzaSyC6tVDBa1L6hwlkszkH0b5SGJPudR89sgs",
+
+        
+        "certificateHash": "AIzaSyC6tVDBa1L6hwlkszkH0b5SGJPudR89sgs"
+      }
+  },
+  
+
+
+
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
